@@ -18,3 +18,18 @@ public:
         return maxSum;
     }
 };
+
+/*
+static int MaxSum(int[] arr){
+		int maxSum = Int32.MinValue;
+		int curSum = 0;
+		for(int i=0;i< arr.Length; i++){
+			curSum += arr[i];
+			if(maxSum < curSum)
+				maxSum = curSum;
+			if(curSum <0)
+				curSum =0;
+		}
+		return maxSum;
+	}
+*/
